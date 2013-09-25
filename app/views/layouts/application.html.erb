@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rbahia</title>
+  <title>Ronaldo Bahia</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "bootstrap-responsive", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "bootstrap", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "main", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="ico/favicon.ico">
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
+
+<%= javascript_include_tag "jquery.min", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "bootstrap.min", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "jquery", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "jquery.ba-bbq", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "jquery.smooth-scroll", "data-turbolinks-track" => true %>
 
 </body>
 </html>

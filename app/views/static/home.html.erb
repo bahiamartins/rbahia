@@ -1,0 +1,87 @@
+<header class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+    	<a class="brand" href="index.html" >Ronaldo Bahia</a>
+      	<ul id="menu-items" class="nav pull-right">
+          <li>
+          	<a href="index.html" title="Perfil">
+            	<span class="sprite-profile" style="display:block;"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#contato" title="Contato">
+            	<span class="sprite-user" style="display:block;"></span>
+            </a>
+          </li>
+          <li>
+          	<a href="http://blog.ronaldobahia.com" target="_blank" title="Blog">
+            	<span class="sprite-blog" style="display:block;"></span>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </div>
+</header>
+	    
+<!-- INTRO -->
+<div id="intro" class="row-fluid slide-title slide-intro ">
+<div class="container">
+    <div class="span12">
+        <h1>Empreendedor com foco em internet colocando idéias em prática.</h1>
+    </div>
+    </div>
+</div>
+
+<!-- MAP -->
+<div id="map" class="row-fluid slide-map">
+<div class="container">
+    <div class="span12">
+        <h2>Sou idealizador da JobConvo que atualmente faz parte do grupo ViaConvo</h2>
+        <p>Veja um pouco mais sobre a empresa<br />acessando <a target="_blank" href="http://www.jobconvo.com">JobConvo</a>.</span></p>
+    </div>
+    </div>
+</div>
+	
+<!-- CONTATO -->
+<div class="row-fluid slide-contact" id="contato">
+<div class="container">
+    <div class="span12">
+        <h3>Gosto de escrever em  <a target="_blank" href="http://blog.ronaldobahia.com" class="sprite-wordpress"></a> e compartilhar informações no <a target="_blank" href="http://www.twitter.com/bahiamartins" class="sprite-twitter"></a>. Escreva para mim no <a href="mailto:ronaldo@ronaldobahia.com" class="sprite-mail"></a> ou conecte-se comigo no <a target="_blank" href="http://br.linkedin.com/in/bahiamartins/" class="sprite-linkedin"></a>.</h3>
+    </div>
+    </div>
+</div>
+
+<!-- Scroll -->
+<script type="text/javascript">
+	$(document)
+	.on('click', 'a[href*="#"]', function() {
+	  if ( this.hash && this.pathname === location.pathname ) {
+		$.bbq.pushState( '#/' + this.hash.slice(1) );
+		return false;
+	  }
+	})
+	.ready(function() {
+	  $(window).bind('hashchange', function(event) {
+		var tgt = location.hash.replace(/^#\/?/,'');
+		if ( document.getElementById(tgt) ) {
+		  $.smoothScroll({scrollTarget: '#' + tgt});
+		}
+	  });
+
+	  $(window).trigger('hashchange');
+	});
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-31248460-1']);
+    _gaq.push(['_setDomainName', 'ronaldobahia.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
