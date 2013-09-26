@@ -12,11 +12,11 @@
 
 <%= yield %>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="javascripts/bootstrap.min.js"></script>
-	<script src="javascripts/jquery.js"></script>
-	<script src="javascripts/jquery.ba-bbq.js"></script>
-	<script src="javascripts/jquery.smooth-scroll.js"></script>
+	<%= javascript_include_tag "jquery.min", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "jquery", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "bootstrap.min", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "jquery.ba-bbq", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "jquery.smooth-scroll", "data-turbolinks-track" => true %>
 
 </body>
 </html>
