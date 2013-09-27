@@ -659,7 +659,9 @@ h2 {
 	padding: 0 40px;
 }
 
-.slide-contact h3 a {}
+.slide-contact h3 a {
+	width: 32px;
+}
 
 .slide-contact h3 a.icon-twitter-3 {}
 
@@ -806,11 +808,11 @@ h2 {
 }
 
 .slide-contact h3 a {
-	width: 50px;
+	width: 32px;
 }
 
 .slide-contact h3 a.icon-twitter-3 {
-	width: 40px;
+	width: 32px;
 }
 
 	
@@ -960,11 +962,7 @@ h2 {
 }
 
 .slide-contact h3 a {
-	width: 40px;
-}
-
-.slide-contact h3 a.icon-twitter-3 {
-	width: 30px;
+	width: 32px;
 }
 	
 }
@@ -1133,100 +1131,7 @@ h2 {
 }
 
 .slide-contact h3 a {
-	width: 24px;
-}
-
-.slide-contact h3 a.icon-twitter-3 {
-	width: 18px;
-}
-
-.slide-contact h3 a.icon-gmail {
-	margin-top: 2px;
-}
-
-.sprite-profile {
-	background-image: url('~profile-sprite.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 0;
-}
-.sprite-profile:hover {
-	background-image: url('~profile-sprite.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 32px;
-}
-.sprite-user {
-	background-image: url('~user-sprite.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 0;
-}
-.sprite-user:hover {
-	background-image: url('~user-sprite.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 32px;
-}
-.sprite-blog {
-	background-image: url('~blog-sprite.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 0;
-}
-.sprite-blog:hover {
-	background-image: url('~blog-sprite.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 32px;
-}
-.sprite-wordpress {
-	background-image: url('~wordpress.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 0;
-}
-.sprite-wordpress:hover {
-	background-image: url('~wordpress.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 32px;
-}
-.sprite-twitter {
-	background-image: url('~twitter.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 0;
-}
-.sprite-twitter:hover {
-	background-image: url('~twitter.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 32px;
-}
-.sprite-mail {
-	background-image: url('~gmail.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 0;
-}
-.sprite-mail:hover {
-	background-image: url('~gmail.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 32px;
-}
-.sprite-linkedin {
-	background-image: url('~linkedin.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 0;
-}
-.sprite-linkedin:hover {
-	background-image: url('~linkedin.png');
-	width: 32px;
-	height: 32px;
-	background-position: 0 32px;
+	width: 32x;
 }
 	
 }
