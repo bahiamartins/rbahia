@@ -1080,6 +1080,7 @@ h2 {
 
 .slide-map {
 	background-size: auto 100%;
+	background-color: #251b23;
 	margin-top: 510px;
 	padding-top: 90px;
 	padding-bottom: 60px
@@ -1143,5 +1144,89 @@ h2 {
 	margin-top: 2px;
 }
 
+.sprite-profile {
+	background-image: url('~profile-sprite.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 0;
+}
+.sprite-profile:hover {
+	background-image: url('~profile-sprite.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 32px;
+}
+.sprite-user {
+	background-image: url('~user-sprite.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 0;
+}
+.sprite-user:hover {
+	background-image: url('~user-sprite.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 32px;
+}
+.sprite-blog {
+	background-image: url('~blog-sprite.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 0;
+}
+.sprite-blog:hover {
+	background-image: url('~blog-sprite.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 32px;
+}
+.sprite-wordpress {
+	background-image: url('~wordpress.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 0;
+}
+.sprite-wordpress:hover {
+	background-image: url('~wordpress.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 32px;
+}
+.sprite-twitter {
+	background-image: url('~twitter.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 0;
+}
+.sprite-twitter:hover {
+	background-image: url('~twitter.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 32px;
+}
+.sprite-mail {
+	background-image: url('~gmail.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 0;
+}
+.sprite-mail:hover {
+	background-image: url('~gmail.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 32px;
+}
+.sprite-linkedin {
+	background-image: url('~linkedin.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 0;
+}
+.sprite-linkedin:hover {
+	background-image: url('~linkedin.png');
+	width: 32px;
+	height: 32px;
+	background-position: 0 32px;
+}
 	
 }
